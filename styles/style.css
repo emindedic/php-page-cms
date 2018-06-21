@@ -1,0 +1,178 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    background: #eeeeee;
+    font-family: 'Open Sans',serif;
+}
+
+.container {
+    width:1000px;
+    margin: auto;
+}
+
+.head {
+    width: 100%;
+    height: 25%;
+    background: #ffff;
+
+}
+#logo {
+    width: 30%;
+    height: 101px;
+    float:left;
+}
+#banner {
+    width: 70%; 
+    height: 101px;
+    float:right;
+}
+
+.navbar {
+    overflow-y: hidden;
+    position: relative;
+    width: 999px;
+    height: 30px;
+    background: rgb(3, 0, 0);
+
+}
+
+#menu {
+    line-height: 30px;
+    float: left;
+
+}
+
+        #menu li {
+            list-style: none;
+            display: inline;
+        }
+            #menu a {
+                text-decoration: none;
+                font-size: 16px;
+                font-family: 'Open Sans',serif;
+                color: #fff;
+                margin:5px;
+                padding: 5px;
+            }
+            #menu a:hover {
+                color: #f63;
+                
+            }
+
+.post_area {
+    display: block;
+    width: 740px;
+    height: auto;
+
+    background: rgb(240, 238, 238);
+    float: left;
+    padding-left: 10px;
+}
+
+.post_area a {
+    text-decoration: none;
+    
+}
+
+.post_area h1 {
+    font-size: 28px;
+    color: #666;
+}
+
+.post_area h1:hover {
+    font-size: 28px;
+    color: rgb(230, 10, 10);
+}
+
+.post_area p {
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.sidebar {
+    width: 250px;
+    height: 600px;
+    background: rgb(214, 214, 214);
+    float: right;
+}
+
+        .recent_post {
+                font-size: 16px;
+                text-align: center;
+                padding-top: 5px;
+                
+
+        }
+
+        .recent_post a {
+            text-decoration: none;
+            color: rgb(32, 32, 32);
+        }
+
+        .recent_post a:hover {
+
+            color: rgb(180, 30, 30);
+        }
+
+#sidebar-title {
+            background: rgb(46, 45, 45);
+            color: #fff;
+            padding: 5px;
+            text-align: center;
+            font-size: 20px;
+        }
+
+
+
+.footer {
+    width: 1000px;
+    height: 100px;
+    background: #000;
+    color: #ffff;
+    clear: both;
+}
+
+      .footer p {
+          color: #fff;
+          padding: 20px;
+          text-align: center;
+      }
+
+#link {
+    float: none;
+    background: rgb(53, 53, 53);
+    color: #fff;
+    padding: 3px;
+    text-decoration: none;
+    margin-top: 5px;
+
+}
+
+
